@@ -1,10 +1,17 @@
-// Istruzioni
-// Il programma dovrà chiedere all'utente:
 
+
+
+function myFunction() {
+    let userName = prompt("Please enter your name", "Name");
+    if (userName != null) {
+      document.getElementById("name").innerHTML =
+      "Buongiorno " + userName + "! Come va?";
+    }
 
 //  il numero di chilometri che vuole percorrere
 
 const kmChoise = Number(prompt("Quati km vuoi percorrere?"));
+
 
 // chiedere l'età del passeggero.
 
@@ -42,3 +49,12 @@ if (passengerAge < 19 ){
     document.getElementById("final_tickets_price").innerHTML = `Il prezzo del tuo biglietto è: ${baseTicketPrice} €`
     
 }
+
+
+
+
+
+
+
+
+  }
