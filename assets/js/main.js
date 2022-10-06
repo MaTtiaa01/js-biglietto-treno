@@ -32,13 +32,13 @@ const oldTicketPrice = Number( oldDiscount * (ticketPriceForKm * kmChoise))
 const youngTicketPrice = Number( youngDiscount * (ticketPriceForKm * kmChoise))
 
 if (passengerAge < 19 ){
-    document.getElementById("discount").innerHTML = "Hai diritto a uno sconto del 20%" 
-    document.getElementById("final_tickets_price").innerHTML = `Il prezzo del tuo biglietto è: ${youngTicketPrice} `
+    document.getElementById("discount").innerHTML = "Hai diritto a uno sconto del 20%!" 
+    document.getElementById("final_tickets_price").innerHTML = `Il prezzo del tuo biglietto è: ${youngTicketPrice} €`
 } else if (passengerAge > 65){
-    document.getElementById("discount").innerHTML = "Hai diritto a uno sconto del 40%" 
-    document.getElementById("final_tickets_price").innerHTML = `Il prezzo del tuo biglietto è: ${oldTicketPrice}`
+    document.getElementById("discount").innerHTML = "Hai diritto a uno sconto del 40%!" 
+    document.getElementById("final_tickets_price").innerHTML = `Il prezzo del tuo biglietto è: ${oldTicketPrice} €`
 } else {
-    document.getElementById("discount").innerHTML = "Non hai diritto a nessuno sconto" 
-    document.getElementById("final_tickets_price").innerHTML = `Il prezzo del tuo biglietto è: ${baseTicketPrice}`
+    document.getElementById("discount").innerHTML = "Ci dispioace ma non hai diritto a nessuno sconto" 
+    document.getElementById("final_tickets_price").innerHTML = `Il prezzo del tuo biglietto è: ${baseTicketPrice} €`
     
 }
