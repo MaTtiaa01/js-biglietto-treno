@@ -38,7 +38,7 @@ if (passengerAge < 19 ){
     document.getElementById("discount").innerHTML = "Hai diritto a uno sconto del 40%!" 
     document.getElementById("final_tickets_price").innerHTML = `Il prezzo del tuo biglietto è: ${oldTicketPrice} €`
 } else {
-    document.getElementById("discount").innerHTML = "Ci dispioace ma non hai diritto a nessuno sconto" 
+    document.getElementById("discount").innerHTML = "Ci dispiace ma non hai diritto a nessuno sconto" 
     document.getElementById("final_tickets_price").innerHTML = `Il prezzo del tuo biglietto è: ${baseTicketPrice} €`
     
 }
